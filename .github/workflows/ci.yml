@@ -73,5 +73,8 @@ jobs:
           coverage: none
           pecl: false
 
+      - name: composer install
+        run: composer require --dev phpstan/phpstan:^0.12
+
       - name: Run phpstan
         run: vendor/bin/phpstan.phar analyse --no-progress src/
