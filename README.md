@@ -1,7 +1,6 @@
 # CakePHP Ecommerce sceleton
 
-[![Build Status](https://img.shields.io/travis/samuelszabo/cakephp-ecommerce/master.svg?style=flat-square)](https://travis-ci.org/samuelszabo/cakephp-ecommerce)
-[![Total Downloads](https://img.shields.io/packagist/dt/cakephp-ecommerce.svg?style=flat-square)](https://packagist.org/packages/samuelszabo/cakephp-ecommerce)
+[![Build Status](https://github.com/samuelszabo/cakephp-ecommerce/workflows/CakePHP%20App%20CI/badge.svg)](https://github.com/samuelszabo/cakephp-ecommerce/actions)
 [![PHPStan](https://img.shields.io/badge/PHPStan-level%20max-brightgreen.svg?style=flat-square)](https://github.com/phpstan/phpstan)
 
 A skeleton for creating applications with [CakePHP](https://cakephp.org) 4.x.
