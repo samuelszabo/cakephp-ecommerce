@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "78f0813d2e19252372610ff0834d4122",
+    "content-hash": "c3fcdc2221fc694e80f08fe57c4290b4",
     "packages": [
         {
             "name": "aura/intl",
@@ -1906,6 +1906,72 @@
             "time": "2020-03-01T12:26:26+00:00"
         },
         {
+            "name": "dereuromark/cakephp-ide-helper",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dereuromark/cakephp-ide-helper.git",
+                "reference": "b80d75a6250264cc2122dbe491a25410067d2961"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dereuromark/cakephp-ide-helper/zipball/b80d75a6250264cc2122dbe491a25410067d2961",
+                "reference": "b80d75a6250264cc2122dbe491a25410067d2961",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/bake": "^2.0.3",
+                "cakephp/cakephp": "^4.0.2",
+                "php": ">=7.2",
+                "sebastian/diff": "^3.0.0",
+                "squizlabs/php_codesniffer": "^3.5.2"
+            },
+            "require-dev": {
+                "dereuromark/cakephp-shim": "dev-master as 2.0.0",
+                "fig-r/psr2r-sniffer": "dev-master"
+            },
+            "type": "cakephp-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "IdeHelper\\": "src/",
+                    "IdeHelper\\Test\\Fixture\\": "tests/Fixture/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Scherer",
+                    "homepage": "https://www.dereuromark.de",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Other contributors",
+                    "homepage": "https://github.com/dereuromark/cakephp-ide-helper/graphs/contributors",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CakePHP IdeHelper Plugin to improve auto-completion",
+            "homepage": "https://github.com/dereuromark/cakephp-ide-helper/",
+            "keywords": [
+                "annotations",
+                "autocomplete",
+                "cakephp",
+                "ide",
+                "phpdoc",
+                "phpstorm",
+                "plugin"
+            ],
+            "time": "2020-04-05T00:55:55+00:00"
+        },
+        {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "v0.1.1",
             "source": {
@@ -2745,6 +2811,45 @@
             ],
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
             "time": "2020-01-25T20:42:48+00:00"
+        },
+        {
+            "name": "phpstan/phpstan",
+            "version": "0.12.18",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpstan/phpstan.git",
+                "reference": "1ce27fe29c8660a27926127d350d53d80c4d4286"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/1ce27fe29c8660a27926127d350d53d80c4d4286",
+                "reference": "1ce27fe29c8660a27926127d350d53d80c4d4286",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "bin": [
+                "phpstan",
+                "phpstan.phar"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.12-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHPStan - PHP Static Analysis Tool",
+            "time": "2020-03-22T16:51:47+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -4403,7 +4508,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.2"
+        "php": ">=7.3"
     },
     "platform-dev": []
 }
